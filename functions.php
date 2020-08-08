@@ -11,7 +11,7 @@
 			 	$p1 = $_POST['player1'];
 			 	$p2 = $_POST['player2'];
 			 	$_SESSION['playernames'] = [ 1=> $p1, 2=> $p2];
-			 	header("Location: http://localhost/projects/04.XOgame/");
+			 	header("Location: http://localhost/projects/XO-Game/");
 			}
 			$el .= setname();
 		}
@@ -23,7 +23,7 @@
 				$p1 = $_POST['player1'];
 				$p2 = 'Camputer';
 				$_SESSION['playernames'] = [ 1=> $p1, 2=> $p2];
-				header("Location: http://localhost/projects/04.XOgame/");
+				header("Location: http://localhost/projects/XO-Game/");
 			}
 			$el .= namewithcpu();
 		}
