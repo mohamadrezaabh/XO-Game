@@ -11,12 +11,9 @@
         <title>XO Game</title>
         <link rel="shortcut icon" href="background/unnamed.png">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href="CSS-master/ermile.css">
-        <!-- <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
     </head>
     <body>
         <div id="container">
-            <!-- <button onclick="swal('Oops!', 'Something went wrong on the page!', 'success');" -->
             <form method='POST' id='form'>
                 <?php echo game_start();?>
             </form>
